@@ -10,16 +10,6 @@ This script send a ARP packet to ALL ip 192.168.0.1/24 (usually used on local ne
 
 ## main.py 
 Not working
-## The script works with a virtual environment (ENV). To activate it, you must use the following command:
-
-Being in the base folder, write:
-# Windows
-.\packet-tracker-with-python\Scripts\Activate
-# Linux
-source packet-tracker-with-python/bin/activate
-
-![image](https://github.com/user-attachments/assets/31d0be3b-cf00-4392-bff1-3e816243f1a8)
-
 
 
 
