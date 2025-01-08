@@ -59,10 +59,10 @@ def send_dns_query(dns_query, dns_server="8.8.8.8", port=53, timeout=10): ## DNS
         sock.sendto(dns_query, (dns_server, port))
         
         # get response
-        response = sock.recvfrom(512)  # The max length of socket 
+        response,_= sock.recvfrom(512)  # The max length of socket 
         
         ## All DNS request are in bytes.
-        return hex_to_ascii(response.hex())  # Convert bytes of DNS response to  HEX and ASCII
+        return clean_domain(hex_to_ascii(response.hex()))  # Convert bytes of DNS response to  HEX and ASCII
     
     except socket.timeout:
         #
