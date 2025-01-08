@@ -1,6 +1,6 @@
 from scapy.all import ARP, Ether, srp,IP,ICMP
 from scapy.all import *
-from src.FEATURES.work_list import get_interfaces,is_valid_ip
+from FEATURES.work_list import get_interfaces,is_valid_ip
 
 interfaces = get_interfaces()   
 

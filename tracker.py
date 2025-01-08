@@ -4,10 +4,10 @@ from scapy.layers.inet import IP, TCP,UDP
 from scapy.layers.l2 import Ether
 from json import *
 from pprint import pprint
-from src.DNS_TOOLS import listOfDomain
-from src.FEATURES.work_list import get_interfaces,is_valid_ip
-from src.FEATURES.protocols import identify_protocol
-from src.FEATURES.graphics import ipUsed
+from DNS_TOOLS import listOfDomain
+from FEATURES.work_list import get_interfaces,is_valid_ip
+from FEATURES.protocols import identify_protocol
+from FEATURES.graphics import ipUsed
 import datetime
 conf.promisc = True
 
@@ -62,7 +62,7 @@ else:
 
 print('Interfaz usada',interface)
 print("Capturando paquetes...")
-sniff( count=5000,timeout=10, iface=interface[0], prn=packet_callback)
+sniff( count=500,timeout=10, iface=interface[0], prn=packet_callback)
 
 
 
