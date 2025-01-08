@@ -17,10 +17,14 @@ Not working
 The scripts 'tracker.py' and 'ARP.py' work with a function to obtain an interface to receive or send packets. This function prioritizes an Ethernet interface. 
 If an error occurs, change it manually as follows:
 
-![image](https://github.com/user-attachments/assets/f7b26f86-bf8b-40f9-b812-6ec49b264330)
+![image](https://github.com/user-attachments/assets/91d577bd-085c-4411-8a69-e942ebfdfbb1)
 
-![image](https://github.com/user-attachments/assets/aab96f3a-f944-41b5-a95f-88e995e34f4a)
+
+
+![image](https://github.com/user-attachments/assets/64605a6e-7753-41c6-9f80-a58812f01f4d)
+
 
 or 
 
-![image](https://github.com/user-attachments/assets/66fcb176-7103-4058-9b7c-2df75ffa64f0)
+![image](https://github.com/user-attachments/assets/a4d9f196-89ed-4279-83bd-3e9a7d349a91)
+
